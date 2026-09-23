@@ -1,0 +1,108 @@
+[2026-02-24 00:03:52] Recebendo dados via POST.
+[2026-02-24 00:03:52] Dados recebidos: Array
+(
+    [user_id] => 728991276
+    [adicionar] => 2222222222
+    [remover] => 0
+)
+
+[2026-02-24 00:03:52] Saldo atual do usuário: 0.50
+[2026-02-24 00:03:53] Log de adição de saldo registrado para o usuário 728991276: 2222222222 em 2026-02-24 00:03:52
+[2026-02-24 00:03:53] Adicionando 2222222222 ao saldo do usuário 728991276. Novo saldo: 2222222222.5
+[2026-02-24 00:03:53] Saldo atualizado com sucesso para o usuário 728991276.
+[2026-03-16 06:33:35] Recebendo dados via POST.
+[2026-03-16 06:33:35] Dados recebidos: Array
+(
+    [user_id] => 454424917
+    [adicionar] => 10000
+    [remover] => 0
+)
+
+[2026-03-16 06:33:35] Saldo atual do usuário: 0.92
+[2026-03-16 06:33:35] Log de adição de saldo registrado para o usuário 454424917: 10000 em 2026-03-16 06:33:35
+[2026-03-16 06:33:35] Adicionando 10000 ao saldo do usuário 454424917. Novo saldo: 10000.92
+[2026-03-16 06:33:35] Saldo atualizado com sucesso para o usuário 454424917.
+[2026-03-16 06:35:20] Recebendo dados via POST.
+[2026-03-16 06:35:20] Dados recebidos: Array
+(
+    [user_id] => 454424917
+    [adicionar] => 0
+    [remover] => 10000
+)
+
+[2026-03-16 06:35:20] Saldo atual do usuário: 10000.92
+[2026-03-16 06:35:20] Log de adição de saldo registrado para o usuário 454424917: 10000 em 2026-03-16 06:35:20
+[2026-03-16 06:35:20] Removendo 10000 do saldo do usuário 454424917. Novo saldo: 0.92000000000007
+[2026-03-16 06:35:20] Saldo atualizado com sucesso para o usuário 454424917.
+[2026-03-16 06:36:47] Recebendo dados via POST.
+[2026-03-16 06:36:47] Dados recebidos: Array
+(
+    [user_id] => 136614033
+    [adicionar] => 10000
+    [remover] => 0
+)
+
+[2026-03-16 06:36:47] Saldo atual do usuário: 0.00
+[2026-03-16 06:36:47] Log de adição de saldo registrado para o usuário 136614033: 10000 em 2026-03-16 06:36:47
+[2026-03-16 06:36:47] Adicionando 10000 ao saldo do usuário 136614033. Novo saldo: 10000
+[2026-03-16 06:36:47] Saldo atualizado com sucesso para o usuário 136614033.
+[2026-03-16 11:20:02] Recebendo dados via POST.
+[2026-03-16 11:20:02] Dados recebidos: Array
+(
+    [user_id] => 136614033
+    [adicionar] => 0
+    [remover] => 10000.66
+)
+
+[2026-03-16 11:20:02] Saldo atual do usuário: 10000.66
+[2026-03-16 11:20:02] Log de adição de saldo registrado para o usuário 136614033: 10000.66 em 2026-03-16 11:20:02
+[2026-03-16 11:20:02] Removendo 10000.66 do saldo do usuário 136614033. Novo saldo: 0
+[2026-03-16 11:20:02] Saldo atualizado com sucesso para o usuário 136614033.
+[2026-03-16 11:20:36] Recebendo dados via POST.
+[2026-03-16 11:20:36] Dados recebidos: Array
+(
+    [user_id] => 136614033
+    [adicionar] => 10
+    [remover] => 0
+)
+
+[2026-03-16 11:20:36] Saldo atual do usuário: 0.00
+[2026-03-16 11:20:36] Log de adição de saldo registrado para o usuário 136614033: 10 em 2026-03-16 11:20:36
+[2026-03-16 11:20:36] Adicionando 10 ao saldo do usuário 136614033. Novo saldo: 10
+[2026-03-16 11:20:36] Saldo atualizado com sucesso para o usuário 136614033.
+[2026-03-16 20:08:11] Recebendo dados via POST.
+[2026-03-16 20:08:11] Dados recebidos: Array
+(
+    [user_id] => 136614033
+    [adicionar] => 1000
+    [remover] => 0
+)
+
+[2026-03-16 20:08:11] Saldo atual do usuário: 10.00
+[2026-03-16 20:08:11] Log de adição de saldo registrado para o usuário 136614033: 1000 em 2026-03-16 20:08:11
+[2026-03-16 20:08:11] Adicionando 1000 ao saldo do usuário 136614033. Novo saldo: 1010
+[2026-03-16 20:08:11] Saldo atualizado com sucesso para o usuário 136614033.
+[2026-03-16 20:10:14] Recebendo dados via POST.
+[2026-03-16 20:10:14] Dados recebidos: Array
+(
+    [user_id] => 473221785
+    [adicionar] => 10000
+    [remover] => 0
+)
+
+[2026-03-16 20:10:14] Saldo atual do usuário: 0.00
+[2026-03-16 20:10:14] Log de adição de saldo registrado para o usuário 473221785: 10000 em 2026-03-16 20:10:14
+[2026-03-16 20:10:14] Adicionando 10000 ao saldo do usuário 473221785. Novo saldo: 10000
+[2026-03-16 20:10:14] Saldo atualizado com sucesso para o usuário 473221785.
+[2026-03-16 20:18:33] Recebendo dados via POST.
+[2026-03-16 20:18:33] Dados recebidos: Array
+(
+    [user_id] => 127788229
+    [adicionar] => 10000
+    [remover] => 0
+)
+
+[2026-03-16 20:18:33] Saldo atual do usuário: 0.00
+[2026-03-16 20:18:33] Log de adição de saldo registrado para o usuário 127788229: 10000 em 2026-03-16 20:18:33
+[2026-03-16 20:18:33] Adicionando 10000 ao saldo do usuário 127788229. Novo saldo: 10000
+[2026-03-16 20:18:33] Saldo atualizado com sucesso para o usuário 127788229.

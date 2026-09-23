@@ -1,0 +1,1 @@
+console.log('webPushSdk loaded dummy');

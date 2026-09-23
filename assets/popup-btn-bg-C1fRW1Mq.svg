@@ -1,0 +1,18 @@
+<svg width="256" height="92" viewBox="0 0 256 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.1" d="M6 26C6 14.9543 14.9543 6 26 6H230C241.046 6 250 14.9543 250 26V66C250 77.0457 241.046 86 230 86H26C14.9543 86 6 77.0457 6 66V26Z" fill="#F7F9FF"/>
+<path d="M26 7H230C240.493 7 249 15.5066 249 26V66C249 76.4934 240.493 85 230 85H26C15.5066 85 7 76.4934 7 66V26C7 15.5066 15.5066 7 26 7Z" stroke="#ABABAB" stroke-width="2"/>
+<g filter="url(#filter0_f_6105_27244)">
+<path d="M28 9H228C238.493 9 247 17.5066 247 28V64C247 74.4934 238.493 83 228 83H28C17.5066 83 9 74.4934 9 64V28C9 17.5066 17.5066 9 28 9Z" stroke="white" stroke-width="2"/>
+</g>
+<ellipse cx="2.82587" cy="4.23881" rx="2.82587" ry="4.23881" transform="matrix(0.723352 0.690479 -0.723352 0.690479 21.3906 14.1011)" fill="#E4E4E4"/>
+<ellipse cx="0.878113" cy="2.0445" rx="0.878113" ry="2.0445" transform="matrix(0.723352 0.690479 -0.723352 0.690479 16.3809 21.7383)" fill="#E4E4E4"/>
+<ellipse cx="2.82587" cy="4.23881" rx="2.82587" ry="4.23881" transform="matrix(0.723352 0.690479 -0.723352 0.690479 238.865 68.7847)" fill="#E4E4E4"/>
+<ellipse cx="0.878113" cy="2.04647" rx="0.878113" ry="2.04647" transform="matrix(0.723352 0.690479 -0.723352 0.690479 233.859 76.4219)" fill="#E4E4E4"/>
+<defs>
+<filter id="filter0_f_6105_27244" x="0" y="0" width="256" height="92" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="4" result="effect1_foregroundBlur_6105_27244"/>
+</filter>
+</defs>
+</svg>

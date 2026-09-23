@@ -1,0 +1,306 @@
+[2026-08-23 17:31:32] === Importando jogos do provedor: DREAMTECH (PlayFiver ID: 13) ===
+[2026-08-23 17:31:32] Categoria (game_type): ELECTRONIC | Status: 1 | Nova categoria: não
+[2026-08-23 17:31:32] URL: https://api.playfivers.com/api/v2/games?provider=13
+[2026-08-23 17:31:32] HTTP 200 — Response: {"status":1,"data":[{"name":"Crazy Alchemist","image_url":"https:\/\/imagensfivers.com\/Games\/Dreamtech\/alchemist.webp","rounds_free":false,"status":true,"original":false,"game_code":"dt.alchemist","provider":{"name":"DREAMTECH"},"currency":["BRL"],"lang":["pt","en","es"]},{"name":"Germ Lab","imag
+[2026-08-23 17:31:32] Total de jogos recebidos: 76
+[2026-08-23 17:31:32] CDN Name: Dreamtech | Prefix: nenhum
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.alchemist — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/alchemist.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.alchemist | Crazy Alchemist | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.bacteria — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/bacteria.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.bacteria | Germ Lab | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.baseball — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/baseball.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.baseball | Baseball Frenzy | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.bigred — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/bigred.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.bigred | Big Red | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.bikini — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/bikini.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.bikini | Bikini Party | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.bird — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/bird.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.bird | Bird Island | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.bloodmoon — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/bloodmoon.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.bloodmoon | Blood Wolf legend | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.bluesea — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/bluesea.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.bluesea | Blue Sea | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.boxingarena — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/boxingarena.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.boxingarena | Boxing Arena | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.candycrush — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/candycrush.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.candycrush | Candy Kingdom | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.casino — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/casino.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.casino | 3D Slot | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.cheekyemojis — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/cheekyemojis.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.cheekyemojis | Cheeky Emojis | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.chess — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/chess.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.chess | Dragon Auto Chess | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.circus — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/circus.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.circus | Crazy Circus | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.clash — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/clash.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.clash | Clash of Three kingdoms | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.crystal — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/crystal.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.crystal | Glory of Heroes | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.dash — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/dash.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.dash | Four Wheels & Bro | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.dnp — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/dnp.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.dnp | DragonPhoenix Prosper | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.dragonball2 — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/dragonball2.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.dragonball2 | Heroes of the East | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.easyrider — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/easyrider.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.easyrider | Easy Rider | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.egyptian — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/egyptian.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.egyptian | Egyptian Empire | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.fantasyforest — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/fantasyforest.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.fantasyforest | Elf Kingdom | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.fls — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/fls.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.fls | FULUSHOU | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.fourbeauty — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/fourbeauty.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.fourbeauty | Four Beauties | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.fourss — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/fourss.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.fourss | Four Holy Beasts | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.galaxywars — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/galaxywars.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.galaxywars | Galaxy Wars | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.garden — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/garden.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.garden | Little Big Garden | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.genie — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/genie.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.genie | Aladdin's Wish | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.greatgatsby — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/greatgatsby.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.greatgatsby | Great Gatsby | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.guhuozai — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/guhuozai.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.guhuozai | Blood Street | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.halloween — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/halloween.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.halloween | Witch Winnings | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.honor — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/honor.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.honor | Field Of Honor | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.hotpotfeast — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/hotpotfeast.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.hotpotfeast | Hotpot Feast | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.icefire — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/icefire.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.icefire | Ice And Fire | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.jtw — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/jtw.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.jtw | Demon Hunt to West | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.legendary — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/legendary.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.legendary | Legendary Tales | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.lovefighters — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/lovefighters.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.lovefighters | Love Fighters | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.magicbean — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/magicbean.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.magicbean | Magic Bean Legend | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.magician — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/magician.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.magician | Magician | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.merryxmas — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/merryxmas.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.merryxmas | Merry Xmas | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.muaythai — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/muaythai.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.muaythai | Muaythai | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.museum — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/museum.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.museum | Wondrous Museum | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.mysticalstones — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/mysticalstones.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.mysticalstones | Mystical Stones | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.newonepiece — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/newonepiece.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.newonepiece | KING OF PIRATE | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.newsd — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/newsd.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.newsd | Basketball Master | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.newsd5 — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/newsd5.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.newsd5 | Basketball Master 2 | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.newyear — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/newyear.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.newyear | Happy New Year | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.nezha — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/nezha.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.nezha | Nezha Legend | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.nightclub — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/nightclub.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.nightclub | Infinity Club | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.opera — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/opera.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.opera | Beijing opera | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.peeping — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/peeping.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.peeping | Peeping | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.piratetreasure — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/piratetreasure.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.piratetreasure | Pirate_Treasure | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.rocknight — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/rocknight.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.rocknight | RocknRoll Night | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.rocknight2 — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/rocknight2.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.rocknight2 | Rock Night2 | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.sailor — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/sailor.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.sailor | Sailor Princess | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.san — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/san.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.san | Battle of Red Cliffs | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.secretdate — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/secretdate.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.secretdate | Secret Date | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.shiningstars — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/shiningstars.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.shiningstars | ShiningStars | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.shokudo — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/shokudo.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.shokudo | shokudo | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.sincity — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/sincity.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.sincity | Sin City | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.sweethouse — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/sweethouse.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.sweethouse | Candy House | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.tgow — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/tgow.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.tgow | Wealthy God Arriving | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.tgow2 — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/tgow2.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.tgow2 | Cai Shen Dao | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.tgow2plus — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/tgow2plus.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.tgow2plus | Cai Shen Dao Plus | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.tlod — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/tlod.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.tlod | Investiture of Gods | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.tombshadow — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/tombshadow.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.tombshadow | Tomb Shadow | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.train — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/train.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.train | Treasure Hunt Trip | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.train2 — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/train2.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.train2 | Treasure Hunt Trip 2 | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.treasures — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/treasures.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.treasures | Secret Treasures | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.vikings — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/vikings.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.vikings | Nordic Saga | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.watermargin — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/watermargin.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.watermargin | Tales Of Wusong | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.westwild — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/westwild.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.westwild | West Wild | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.whackamole — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/whackamole.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.whackamole | Whack-A-Mole | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.wheel — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/wheel.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.wheel | Secrets of The Pentagram | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.whitesnake — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/whitesnake.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.whitesnake | Tales of White Snake | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32]   PREFIXO detectado em dt.wrathofthor — escolha do admin: stripped
+[2026-08-23 17:31:32]   BANNER: https://imagensfivers.com/Games/Dreamtech/wrathofthor.webp
+[2026-08-23 17:31:32]   INSERIDO: dt.wrathofthor | Wrath of Thor | status=1 | type=ELECTRONIC
+[2026-08-23 17:31:32] Finalizado. Inseridos: 76 | Já existiam: 0 | Erros: 0
+[2026-08-23 17:44:45] === Importando jogos do provedor: TOPTREND (PlayFiver ID: 12) ===
+[2026-08-23 17:44:45] Categoria (game_type): ELECTRONIC | Status: 1 | Nova categoria: não
+[2026-08-23 17:44:45] URL: https://api.playfivers.com/api/v2/games?provider=12
+[2026-08-23 17:44:45] HTTP 200 — Response: {"status":1,"data":[{"name":"Battle Heroes","image_url":"https:\/\/imagensfivers.com\/Games\/Toptrend\/BattleHeroes.webp","rounds_free":false,"status":true,"original":false,"game_code":"tt.battleheroes","provider":{"name":"TOPTREND"},"currency":["BRL"],"lang":["pt","en","es"]},{"name":"Chilli Gold",
+[2026-08-23 17:44:45] Total de jogos recebidos: 32
+[2026-08-23 17:44:45] CDN Name: Toptrend | Prefix: nenhum
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/BattleHeroes.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.battleheroes | Battle Heroes | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/ChilliGoldH5.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.chilligoldh5 | Chilli Gold | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/DiamondFortune.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.diamondfortune | DiamondFortune | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/DolphinGoldH5.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.dolphingoldh5 | DolphinGold | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/DragonKingH5.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.dragonkingh5 | DragonKing | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/DragonPalaceH5.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.dragonpalaceh5 | Dragon Palace | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/DynastyEmpire.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.dynastyempire | Dynasty Empire | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/EverlastingSpins.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.everlastingspins | EverlastingSpins | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/GoldenAmazon.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.goldenamazon | Golden Amazon | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/GoldenClaw.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.goldenclaw | GoldenClaw | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/GoldenGenie.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.goldengenie | GoldenGenie | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/HeroesNeverDie.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.heroesneverdie | Heroes Never Die | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/HotVolcanoH5.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.hotvolcanoh5 | HotVolcano | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/Huluwa.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.huluwa | Huluwa | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/KingDinosaur.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.kingdinosaur | KingDinosaur | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/LeagueOfChampions.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.leagueofchampions | League Of Champions | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/LegendOfLinkH5.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.legendoflinkh5 | LegendOfLink | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/LuckyPandaH5.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.luckypandah5 | LuckyPanda | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/MadMonkey2.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.madmonkey2 | MadMonkey | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/MedusaCurse.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.medusacurse | Medusa Curse | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/MonkeyLuck.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.monkeyluck | MonkeyLuck | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/NeptunesGoldH5.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.neptunesgoldh5 | Neptunes Gold | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/PandaWarrior.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.pandawarrior | PandaWarrior | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/ReelsOfFortune.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.reelsoffortune | Reels Of Fortune | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/RoyalGoldenDragon.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.royalgoldendragon | RoyalGoldenDragon | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/SilverLionH5.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.silverlionh5 | Silver Lion | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/SuperKids.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.superkids | SuperKids | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/ThunderingZeus.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.thunderingzeus | ThunderingZeus | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/UltimateFighter.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.ultimatefighter | UltimateFighter | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/WildKartRacers.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.wildkartracers | Wild Kart Racers | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/WildWildWitch.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.wildwildwitch | Wild Wild Witch | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45]   BANNER (image_url da API): https://imagensfivers.com/Games/Toptrend/Zoomania.webp
+[2026-08-23 17:44:45]   INSERIDO: tt.zoomania | Zoomania | status=1 | type=ELECTRONIC
+[2026-08-23 17:44:45] Finalizado. Inseridos: 32 | Já existiam: 0 | Erros: 0

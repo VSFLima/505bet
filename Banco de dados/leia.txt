@@ -1,0 +1,13 @@
+rota do administrativo 
+seu site /admin
+ex: meusite.com/admin
+usuário e senha e 2fa
+e-mail: admin@eu.com
+senha: qwe123
+2fa: 102030
+
+muitos bugs corrigidos, caso encontre novos bugs reporte a 45999057184 adm 
+
+
+conectar seu banco de dados acesse a pasta admin
+depois a pasta services ai por fim database.php ou procure direto por database.php configure seu banco de dados ali....

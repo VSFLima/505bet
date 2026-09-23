@@ -1,0 +1,73 @@
+RewriteEngine On
+#RewriteCond %{SERVER_PORT} 80
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+
+
+#SITEMA DE LINKS DINAMICOS
+
+RewriteRule  ^form-slider 				form-slider.php		 [NC,L]
+
+
+
+
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+<IfModule mod_rewrite.c>
+	<IfModule mod_negotiation.c>
+		Options -MultiViews
+	</IfModule>
+</IfModule>
+# ----------------------------------------------------------------------
+# | Anti- Clickjacking                                                       |
+# ----------------------------------------------------------------------
+ <IfModule mod_headers.c>
+ Header set X-Frame-Options "DENY"
+ # `mod_headers` cannot match based on the content-type, however,
+ # the `X-Frame-Options` response header should be send only for
+ # HTML documents and not for the other resources.
+ <FilesMatch "\.(appcache|ttf|ttc|otf|eot|woff|font.css|css|atom|bbaw|bmp|crx|css|cur|eot|f4[abpv]|flv|geojson|gif|htc|ico|jpe?g|js|json(ld)?|m4[av]|manifest|map|mp4|oex|og[agv]|opus|otf|pdf|png|rdf|rss|safariextz|svgz?|swf|topojson|tt[cf]|txt|vcard|vcf|vtt|webapp|web[mp]|woff2?|xloc|xml|xpi)$">
+    # Header unset X-Frame-Options
+ </FilesMatch>
+</IfModule>
+
+# ----------------------------------------------------------------------
+# | Negando acesso aos diretórios                                                      |
+# ---------------------------------------------------------------------
+	<IfModule mod_autoindex.c>
+		Options -Indexes
+	</IfModule>
+	
+# ----------------------------------------------------------------------
+# | Bloqueando arquivos sensiveis                                                  |
+# ----------------------------------------------------------------------	
+	<FilesMatch "(^#.*#|\.(bak|conf|dist|fla|in[ci]|log|psd|sh|sql|sw[op])|~)$">
+
+		# Apache < 2.3
+		<IfModule !mod_authz_core.c>
+			Order allow,deny
+			Deny from all
+			Satisfy All
+		</IfModule>
+
+		# Apache ≥ 2.3
+		<IfModule mod_authz_core.c>
+			Require all denied
+		</IfModule>
+
+	</FilesMatch>
+	
+	# ----------------------------------------------------------------------
+	# | Cross-Site Scripting (XSS) Ataque                                  |
+	# ----------------------------------------------------------------------
+		<IfModule mod_headers.c>
+		 #                           (1)    (2)
+		 Header set X-XSS-Protection "1; mode=block"
+		 # `mod_headers` cannot match based on the content-type, however,
+		 # the `X-XSS-Protection` response header should be send only for
+		 # HTML documents and not for the other resources.
+		 <FilesMatch "\.(appcache|atom|bbaw|bmp|crx|css|cur|eot|f4[abpv]|flv|geojson|gif|htc|ico|jpe?g|js|json(ld)?|m4[av]|manifest|map|mp4|oex|og[agv]|opus|otf|pdf|png|rdf|rss|safariextz|svgz?|swf|topojson|tt[cf]|txt|vcard|vcf|vtt|webapp|web[mp]|woff2?|xloc|xml|xpi)$">
+			 Header unset X-XSS-Protection
+		 </FilesMatch>
+	 </IfModule>

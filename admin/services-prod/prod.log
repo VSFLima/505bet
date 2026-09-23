@@ -1,0 +1,74 @@
+[2026-03-31 18:28:18] [PROD] ----------------------------------------------------------------
+[2026-03-31 18:28:18] [PROD] API: Iniciando solicitacao de deposito (pay.create/deposit.create)
+[2026-03-31 18:28:18] [PROD] API: Usuario ID: 714504142 | Nome: Cliente
+[2026-03-31 18:28:18] [PROD] API: Valor (reais): 1
+[2026-03-31 18:28:18] [PROD] API: payTypeSubListId: 
+[2026-03-31 18:28:18] [PROD] API: Chamando next_sistemas_qrcode...
+[2026-03-31 18:28:18] [PROD] Iniciando next_sistemas_qrcode. Valor: 1, ID: 714504142, JoinBonus: 0
+[2026-03-31 18:28:18] [PROD] Tentando gateway: ecompag
+[2026-03-31 18:28:18] [PROD] criarQrEcompag: Entrada - Valor: 1, Nome: Cliente, ID: 714504142
+[2026-03-31 18:28:18] [PROD] [ECOMPAG] Enviando requisição - Valor: 1, Nome: Cliente, ID: 714504142
+[2026-03-31 18:28:18] [PROD] [ECOMPAG] Payload: {"client_id":"instapixel77_8201467038","client_secret":"***","nome":"Cliente","cpf":"40612036146","valor":"1.00","descricao":"Deposito 714504142","urlnoty":"https:\/\/jceclick.shop\/callbackpayment\/ecompag"}
+[2026-03-31 18:28:18] [PROD] [ECOMPAG] Response HTTP 400: {"statusCode":400,"message":"O valor m\u00ednimo permitido para dep\u00f3sito \u00e9 R$ 2,00"}
+[2026-03-31 18:28:18] [PROD] [ECOMPAG] Erro na resposta da API: O valor mínimo permitido para depósito é R$ 2,00
+[2026-03-31 18:28:18] [PROD] Ecompag falhou ou retornou vazio.
+[2026-03-31 18:28:18] [PROD] API: Retorno de next_sistemas_qrcode: 
+[2026-03-31 18:28:23] [PROD] ----------------------------------------------------------------
+[2026-03-31 18:28:23] [PROD] API: Iniciando solicitacao de deposito (pay.create/deposit.create)
+[2026-03-31 18:28:23] [PROD] API: Usuario ID: 714504142 | Nome: Cliente
+[2026-03-31 18:28:23] [PROD] API: Valor (reais): 2
+[2026-03-31 18:28:23] [PROD] API: payTypeSubListId: 
+[2026-03-31 18:28:23] [PROD] API: Chamando next_sistemas_qrcode...
+[2026-03-31 18:28:23] [PROD] Iniciando next_sistemas_qrcode. Valor: 2, ID: 714504142, JoinBonus: 0
+[2026-03-31 18:28:23] [PROD] Tentando gateway: ecompag
+[2026-03-31 18:28:23] [PROD] criarQrEcompag: Entrada - Valor: 2, Nome: Cliente, ID: 714504142
+[2026-03-31 18:28:23] [PROD] [ECOMPAG] Enviando requisição - Valor: 2, Nome: Cliente, ID: 714504142
+[2026-03-31 18:28:23] [PROD] [ECOMPAG] Payload: {"client_id":"instapixel77_8201467038","client_secret":"***","nome":"Cliente","cpf":"50746325363","valor":"2.00","descricao":"Deposito 714504142","urlnoty":"https:\/\/jceclick.shop\/callbackpayment\/ecompag"}
+[2026-03-31 18:28:24] [PROD] [ECOMPAG] Response HTTP 200: {"statusCode":200,"message":"QR Code gerado com sucesso via Ecompag","qrcode":"00020101021226940014br.gov.bcb.pix2572qrcode.cartwavehub.com.br/v2/qr/cob/b2fcd765-a1a6-4943-b2dd-c49d4b126a505204000053039865802BR5925NEXIUM PAYMENTS SERVICOS 6009SAO PAULO62070503***630477D0","transactionId":"cmnf4ph6301cr1yny467g3ge8","amount":2,"reference_code":"cmnf4ph6301cr1yny467g3ge8","gateway":"ecompag"}
+[2026-03-31 18:28:24] [PROD] insert_payment: Iniciando inserção. Dados: {"transacao_id":"cmnf4ph6301cr1yny467g3ge8","usuario":714504142,"valor":2,"tipo":"deposito","data_registro":"2026-03-31 18:28:24","qrcode":"iVBORw0KGgoAAAANSUhEUgAAAKsAAACrAQMAAAAjJv5aAAAABlBMVEX%2F%2F%2F8AAABVwtN%2BAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACvElEQVRIie2WQc6kIBCFy7hgJxcg4RrsuJJeQNsL4JXYcQ0SLmDvWBBrHnbP%2FMnMqlyPMZ3%2Bv%2F6jVL3HK4j%2BX%2F9emvnlxz3S7EogM3m%2B5HiiMXh7ORpqW8EciBz7cqTyjuXyhSutjsMj%2FMKNRyqz%2BjY%2FxQdb%2FMJcTp%2FpGabxiJkIDUOJ4%2BuneAFGvwM6%2Fef%2BkUGA%2B%2BMVbfFeYyzhR3wB1ml81%2FFIljkPEd0qpxwPNW%2BxkWpbMuTtO34WKMM62iNy6HJlUpn8GOR4qDTEsqe23J8a75HjyY1n7zS6DrnQrTbL8cB5dqYvzVkYeUv2lGMdR2YzxLxx1slelFc5HqqZKU%2BuvAC8Pd13gSKMBl%2Bu0V0iOr3etxRrNqszQ4LmZnZwUyY5JoKFTdc%2FISHgID7lWHObEHhsg2tbhRN%2F7zQR7vuAL2WWWoKimWyQY3hwq2ZJWKNZGOLb6wlmjnAQSsQX2rgEOSaXEfynQnaSruWib8zIMFKz9oxBUJ2EPdEmOR5S1hEGRGrag9tKH9FkmHri5q0iv%2B2l8Mu3ShFGVi0pz4r3muHlE75%2BgKM9FapsXbRq332NYqwjIW6P2OMB%2F%2FJS40uOh1R2%2FIU9QW2IyHIzyfHUMw%2ByZ13tnvCqT79lmNAezEZMAMSngnSfrJJhjKANU0jRqpCXZvb0AGseIRfq6%2FHg7lOMHEN5QlJ6gy9D6p%2BTHOvEnJAusB4fCAlfLjnGJCGPOU9Lz7y81PF8gOFBaujTpfInd9cHmOHB8Y1RhlNYd9NHSRnWFYcmnLywL1Gx0fwtXoTvDdEwSXAKY2Q5NZLj%2BxQ2Xt6i00EhLcolx%2FDLDg8iq3rYwDvlfIA9TivYT%2FAgcqtPJ3qEA%2BY8QTHGZNvZzI%2FwfcqGesgqxnumBxh7SHHPKu5OnNX32SJ89zuvqlzQ3%2FcgD3L8%2F%2Fr7%2BgXCUDioXoDKmAAAAABJRU5ErkJggg%3D%3D","status":"processamento","code":"00020101021226940014br.gov.bcb.pix2572qrcode.cartwavehub.com.br\/v2\/qr\/cob\/b2fcd765-a1a6-4943-b2dd-c49d4b126a505204000053039865802BR5925NEXIUM PAYMENTS SERVICOS 6009SAO PAULO62070503***630477D0","comissao":null,"afiliado_id":null,"pay_type_sub_list_id":null,"join_bonus":0}
+[2026-03-31 18:28:24] [PROD] insert_payment: SQL: INSERT INTO transacoes (transacao_id,usuario,valor,tipo,data_registro,qrcode,code,status,join_bonus) VALUES (?,?,?,?,?,?,?,?,?)
+[2026-03-31 18:28:24] [PROD] insert_payment: Sucesso na inserção.
+[2026-03-31 18:28:24] [PROD] [ECOMPAG] Transação inserida com sucesso: cmnf4ph6301cr1yny467g3ge8
+[2026-03-31 18:28:24] [PROD] Sucesso no gateway: ecompag
+[2026-03-31 18:28:24] [PROD] API: Retorno de next_sistemas_qrcode: Array
+(
+    [transacao_id] => cmnf4ph6301cr1yny467g3ge8
+    [transaction_id] => cmnf4ph6301cr1yny467g3ge8
+    [external_id] => cmnf4ph6301cr1yny467g3ge8
+    [qrcode] => iVBORw0KGgoAAAANSUhEUgAAAKsAAACrAQMAAAAjJv5aAAAABlBMVEX%2F%2F%2F8AAABVwtN%2BAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACvElEQVRIie2WQc6kIBCFy7hgJxcg4RrsuJJeQNsL4JXYcQ0SLmDvWBBrHnbP%2FMnMqlyPMZ3%2Bv%2F6jVL3HK4j%2BX%2F9emvnlxz3S7EogM3m%2B5HiiMXh7ORpqW8EciBz7cqTyjuXyhSutjsMj%2FMKNRyqz%2BjY%2FxQdb%2FMJcTp%2FpGabxiJkIDUOJ4%2BuneAFGvwM6%2Fef%2BkUGA%2B%2BMVbfFeYyzhR3wB1ml81%2FFIljkPEd0qpxwPNW%2BxkWpbMuTtO34WKMM62iNy6HJlUpn8GOR4qDTEsqe23J8a75HjyY1n7zS6DrnQrTbL8cB5dqYvzVkYeUv2lGMdR2YzxLxx1slelFc5HqqZKU%2BuvAC8Pd13gSKMBl%2Bu0V0iOr3etxRrNqszQ4LmZnZwUyY5JoKFTdc%2FISHgID7lWHObEHhsg2tbhRN%2F7zQR7vuAL2WWWoKimWyQY3hwq2ZJWKNZGOLb6wlmjnAQSsQX2rgEOSaXEfynQnaSruWib8zIMFKz9oxBUJ2EPdEmOR5S1hEGRGrag9tKH9FkmHri5q0iv%2B2l8Mu3ShFGVi0pz4r3muHlE75%2BgKM9FapsXbRq332NYqwjIW6P2OMB%2F%2FJS40uOh1R2%2FIU9QW2IyHIzyfHUMw%2ByZ13tnvCqT79lmNAezEZMAMSngnSfrJJhjKANU0jRqpCXZvb0AGseIRfq6%2FHg7lOMHEN5QlJ6gy9D6p%2BTHOvEnJAusB4fCAlfLjnGJCGPOU9Lz7y81PF8gOFBaujTpfInd9cHmOHB8Y1RhlNYd9NHSRnWFYcmnLywL1Gx0fwtXoTvDdEwSXAKY2Q5NZLj%2BxQ2Xt6i00EhLcolx%2FDLDg8iq3rYwDvlfIA9TivYT%2FAgcqtPJ3qEA%2BY8QTHGZNvZzI%2FwfcqGesgqxnumBxh7SHHPKu5OnNX32SJ89zuvqlzQ3%2FcgD3L8%2F%2Fr7%2BgXCUDioXoDKmAAAAABJRU5ErkJggg%3D%3D
+    [qr_code_image] => iVBORw0KGgoAAAANSUhEUgAAAKsAAACrAQMAAAAjJv5aAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACvElEQVRIie2WQc6kIBCFy7hgJxcg4RrsuJJeQNsL4JXYcQ0SLmDvWBBrHnbP/MnMqlyPMZ3+v/6jVL3HK4j+X/9emvnlxz3S7EogM3m+5HiiMXh7ORpqW8EciBz7cqTyjuXyhSutjsMj/MKNRyqz+jY/xQdb/MJcTp/pGabxiJkIDUOJ4+uneAFGvwM6/ef+kUGA++MVbfFeYyzhR3wB1ml81/FIljkPEd0qpxwPNW+xkWpbMuTtO34WKMM62iNy6HJlUpn8GOR4qDTEsqe23J8a75HjyY1n7zS6DrnQrTbL8cB5dqYvzVkYeUv2lGMdR2YzxLxx1slelFc5HqqZKU+uvAC8Pd13gSKMBl+u0V0iOr3etxRrNqszQ4LmZnZwUyY5JoKFTdc/ISHgID7lWHObEHhsg2tbhRN/7zQR7vuAL2WWWoKimWyQY3hwq2ZJWKNZGOLb6wlmjnAQSsQX2rgEOSaXEfynQnaSruWib8zIMFKz9oxBUJ2EPdEmOR5S1hEGRGrag9tKH9FkmHri5q0iv+2l8Mu3ShFGVi0pz4r3muHlE75+gKM9FapsXbRq332NYqwjIW6P2OMB//JS40uOh1R2/IU9QW2IyHIzyfHUMw+yZ13tnvCqT79lmNAezEZMAMSngnSfrJJhjKANU0jRqpCXZvb0AGseIRfq6/Hg7lOMHEN5QlJ6gy9D6p+THOvEnJAusB4fCAlfLjnGJCGPOU9Lz7y81PF8gOFBaujTpfInd9cHmOHB8Y1RhlNYd9NHSRnWFYcmnLywL1Gx0fwtXoTvDdEwSXAKY2Q5NZLj+xQ2Xt6i00EhLcolx/DLDg8iq3rYwDvlfIA9TivYT/AgcqtPJ3qEA+Y8QTHGZNvZzI/wfcqGesgqxnumBxh7SHHPKu5OnNX32SJ89zuvqlzQ3/cgD3L8//r7+gXCUDioXoDKmAAAAABJRU5ErkJggg==
+    [amount] => 2
+    [status] => processamento
+    [code] => 00020101021226940014br.gov.bcb.pix2572qrcode.cartwavehub.com.br/v2/qr/cob/b2fcd765-a1a6-4943-b2dd-c49d4b126a505204000053039865802BR5925NEXIUM PAYMENTS SERVICOS 6009SAO PAULO62070503***630477D0
+)
+
+[2026-04-20 23:48:46] [PROD] ----------------------------------------------------------------
+[2026-04-20 23:48:46] [PROD] API: Iniciando solicitacao de deposito (pay.create/deposit.create)
+[2026-04-20 23:48:46] [PROD] API: Usuario ID: 272668587 | Nome: Cliente
+[2026-04-20 23:48:46] [PROD] API: Valor (reais): 1
+[2026-04-20 23:48:46] [PROD] API: payTypeSubListId: 
+[2026-04-20 23:48:46] [PROD] API: Chamando next_sistemas_qrcode...
+[2026-04-20 23:48:46] [PROD] Iniciando next_sistemas_qrcode. Valor: 1, ID: 272668587, JoinBonus: 0
+[2026-04-20 23:48:46] [PROD] Tentando gateway: ecompag
+[2026-04-20 23:48:46] [PROD] criarQrEcompag: Entrada - Valor: 1, Nome: Cliente, ID: 272668587
+[2026-04-20 23:48:46] [PROD] [ECOMPAG] Enviando requisição - Valor: 1, Nome: Cliente, ID: 272668587
+[2026-04-20 23:48:46] [PROD] [ECOMPAG] Payload: {"client_id":"acct_live_fbxop97rijevlwwj","client_secret":"***","nome":"Cliente","cpf":"33024052003","valor":"1.00","descricao":"Deposito 272668587","urlnoty":"https:\/\/raspwin.com\/callbackpayment\/ecompag"}
+[2026-04-20 23:48:46] [PROD] [ECOMPAG] Response HTTP 401: {"statusCode":401,"message":"client_id ou client_secret inv\u00e1lidos."}
+[2026-04-20 23:48:46] [PROD] [ECOMPAG] Erro na resposta da API: client_id ou client_secret inválidos.
+[2026-04-20 23:48:46] [PROD] Ecompag falhou ou retornou vazio.
+[2026-04-20 23:48:46] [PROD] API: Retorno de next_sistemas_qrcode: 
+[2026-04-20 23:49:15] [PROD] ----------------------------------------------------------------
+[2026-04-20 23:49:15] [PROD] API: Iniciando solicitacao de deposito (pay.create/deposit.create)
+[2026-04-20 23:49:15] [PROD] API: Usuario ID: 272668587 | Nome: Cliente
+[2026-04-20 23:49:15] [PROD] API: Valor (reais): 2
+[2026-04-20 23:49:15] [PROD] API: payTypeSubListId: 
+[2026-04-20 23:49:15] [PROD] API: Chamando next_sistemas_qrcode...
+[2026-04-20 23:49:15] [PROD] Iniciando next_sistemas_qrcode. Valor: 2, ID: 272668587, JoinBonus: 0
+[2026-04-20 23:49:15] [PROD] Tentando gateway: ecompag
+[2026-04-20 23:49:15] [PROD] criarQrEcompag: Entrada - Valor: 2, Nome: Cliente, ID: 272668587
+[2026-04-20 23:49:15] [PROD] [ECOMPAG] Enviando requisição - Valor: 2, Nome: Cliente, ID: 272668587
+[2026-04-20 23:49:15] [PROD] [ECOMPAG] Payload: {"client_id":"acct_live_fbxop97rijevlwwj","client_secret":"***","nome":"Cliente","cpf":"58054949570","valor":"2.00","descricao":"Deposito 272668587","urlnoty":"https:\/\/raspwin.com\/callbackpayment\/ecompag"}
+[2026-04-20 23:49:15] [PROD] [ECOMPAG] Response HTTP 401: {"statusCode":401,"message":"client_id ou client_secret inv\u00e1lidos."}
+[2026-04-20 23:49:15] [PROD] [ECOMPAG] Erro na resposta da API: client_id ou client_secret inválidos.
+[2026-04-20 23:49:15] [PROD] Ecompag falhou ou retornou vazio.
+[2026-04-20 23:49:15] [PROD] API: Retorno de next_sistemas_qrcode: 

@@ -1,0 +1,71 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Evita problemas de negociação de conteúdo e listagem de diretórios
+    Options +FollowSymLinks -MultiViews -Indexes
+
+    # Forçar HTTPS se necessário (descomente se estiver em produção com SSL)
+    # RewriteCond %{HTTPS} off
+    # RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    # ----------------------------------------------------------------------
+    # | Rotas da API e Callbacks                                           |
+    # ----------------------------------------------------------------------
+    RewriteRule ^api/frontend/(.*)$ api/v1/api.php [QSA,L]
+    RewriteRule ^gold_api(.*)$ callback/game_callback [QSA,L]
+    RewriteRule ^infinitysoft_api(.*)$ callback/game_callback [QSA,L]
+    
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^igamewin(.*)$ callback/igamewin [QSA,L]
+    
+    RewriteRule ^ppclone(.*)$ callback/ppclone [QSA,L]
+    RewriteRule ^drakon_api(.*)$ callback/drakon.php [QSA,L]
+    RewriteRule ^playfiver/webhook(.*)$ callback/playfiver.php [QSA,L]
+
+    # ----------------------------------------------------------------------
+    # | sistema abaixo faz dowload das imagens                                             |
+    # ----------------------------------------------------------------------
+    RewriteRule ^.*\.(png|jpg|jpeg|gif|svg|webp|ico)$ missing_asset.php [QSA,L]
+
+    # ----------------------------------------------------------------------
+    # | SPA Fallback (Single Page Application)                             |
+    # ----------------------------------------------------------------------
+    DirectoryIndex index.php
+
+    # Se o arquivo ou diretório existir, serve diretamente,
+    # EXCETO se for na rota main/ (para evitar conflito com diretório físico 'main')
+    RewriteCond %{REQUEST_URI} !^/main/ [NC]
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # Caso contrário, redireciona tudo para index.php
+    RewriteRule ^ index.php [QSA,L]
+</IfModule>
+
+# ----------------------------------------------------------------------
+# | Configuração de Charset                                            |
+# ----------------------------------------------------------------------
+AddDefaultCharset UTF-8
+<IfModule mod_mime.c>
+    AddCharset UTF-8 .js
+    AddCharset UTF-8 .css
+    AddCharset UTF-8 .html
+    AddCharset UTF-8 .json
+</IfModule>
+
+# ----------------------------------------------------------------------
+# | Configurações de Segurança e Headers                               |
+# ----------------------------------------------------------------------
+<IfModule mod_headers.c>
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set X-Content-Type-Options "nosniff"
+    
+    # Cache Control para arquivos dinâmicos
+    <FilesMatch "\.(php|html)$">
+        Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+        Header set Pragma "no-cache"
+    </FilesMatch>
+</IfModule>

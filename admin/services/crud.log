@@ -1,0 +1,7 @@
+[2026-08-23 16:37:13] [PlayFiver] === game_launch ===
+[2026-08-23 16:37:13] [PlayFiver] Provedor: JILI | Game: JILI_547 | User: 45999057184 | Saldo: 975.57
+[2026-08-23 16:37:13] [PlayFiver] Endpoint: https://api.playfivers.com/api/v2/game_launch
+[2026-08-23 16:37:13] [PlayFiver] Payload: {"agentToken":"***","secretKey":"***","user_code":"45999057184","provider":"JILI","game_code":"JILI_547","user_balance":975.57,"lang":"pt"}
+[2026-08-23 16:37:14] [PlayFiver] HTTP Response RAW: {"status":1,"msg":"SUCCESS","launch_url":"https:\/\/wbgame.assetsbr.com\/gameLaunch?token=23da16f1-838e-4d21-8a40-c96fbdb6d742&gamecode=547&lang=pt","user_code":"45999057184","user_balance":975.57,"user_created":false,"name":"Three Coin Golden OX"}
+[2026-08-23 16:37:14] [PlayFiver] Resposta decodificada: {"status":1,"msg":"SUCCESS","launch_url":"https:\/\/wbgame.assetsbr.com\/gameLaunch?token=23da16f1-838e-4d21-8a40-c96fbdb6d742&gamecode=547&lang=pt","user_code":"45999057184","user_balance":975.57,"user_created":false,"name":"Three Coin Golden OX"}
+[2026-08-23 16:37:14] [PlayFiver] SUCESSO — URL: https://wbgame.assetsbr.com/gameLaunch?token=23da16f1-838e-4d21-8a40-c96fbdb6d742&gamecode=547&lang=pt

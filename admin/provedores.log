@@ -1,0 +1,24 @@
+[2026-08-23 17:10:37] === Buscando lista de provedores PlayFiver (sem gravar) ===
+[2026-08-23 17:10:37] Chamando API (fetch): https://api.playfivers.com/api/v2/providers?agentToken=***&secretKey=f1cc7718-47ad-496d-905f-94eed758539c
+[2026-08-23 17:10:37] ERRO (fetch): HTTP 403 — {"status":0,"msg":"IP N\u00e3o permitido."}
+[2026-08-23 17:10:45] === Buscando lista de provedores PlayFiver (sem gravar) ===
+[2026-08-23 17:10:45] Chamando API (fetch): https://api.playfivers.com/api/v2/providers?agentToken=***&secretKey=f1cc7718-47ad-496d-905f-94eed758539c
+[2026-08-23 17:10:46] ERRO (fetch): HTTP 403 — {"status":0,"msg":"IP N\u00e3o permitido."}
+[2026-08-23 17:12:24] === Buscando lista de provedores PlayFiver (sem gravar) ===
+[2026-08-23 17:12:24] Chamando API (fetch): https://api.playfivers.com/api/v2/providers?agentToken=***&secretKey=f1cc7718-47ad-496d-905f-94eed758539c
+[2026-08-23 17:12:25] Fetch OK — 66 provedores listados.
+[2026-08-23 17:14:00] === Importando selecionados (1) | com_logo=0 ===
+[2026-08-23 17:14:00]   INSERIDO (desativado): TOPTREND | TOPTREND
+[2026-08-23 17:14:00] Selecionados finalizado. Inseridos: 1 | Já existiam: 0
+[2026-08-23 17:18:38] === Buscando lista de provedores PlayFiver (sem gravar) ===
+[2026-08-23 17:18:38] Chamando API (fetch): https://api.playfivers.com/api/v2/providers?agentToken=***&secretKey=f1cc7718-47ad-496d-905f-94eed758539c
+[2026-08-23 17:18:39] Fetch OK — 66 provedores listados.
+[2026-08-23 17:20:26] === Importando selecionados (1) | com_logo=0 ===
+[2026-08-23 17:20:26]   INSERIDO (desativado): DREAMTECH | DREAMTECH
+[2026-08-23 17:20:26] Selecionados finalizado. Inseridos: 1 | Já existiam: 0
+[2026-08-23 17:32:36] === Buscando lista de provedores PlayFiver (sem gravar) ===
+[2026-08-23 17:32:36] Chamando API (fetch): https://api.playfivers.com/api/v2/providers?agentToken=***&secretKey=f1cc7718-47ad-496d-905f-94eed758539c
+[2026-08-23 17:32:37] Fetch OK — 66 provedores listados.
+[2026-08-23 17:32:47] === Importando selecionados (1) | com_logo=0 ===
+[2026-08-23 17:32:47]   INSERIDO (desativado): TOPTREND | TOPTREND
+[2026-08-23 17:32:47] Selecionados finalizado. Inseridos: 1 | Já existiam: 0

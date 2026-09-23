@@ -1,0 +1,25 @@
+<svg width="32" height="34" viewBox="0 0 32 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_12004_32024)">
+<rect width="25.4556" height="25.4556" rx="6" transform="matrix(0.707102 0.707111 -0.707102 0.707111 16 -2)" fill="url(#paint0_radial_12004_32024)"/>
+<rect y="1.41422" width="23.4556" height="23.4556" rx="5" transform="matrix(0.707102 0.707111 -0.707102 0.707111 17 -1.58579)" stroke="url(#paint1_linear_12004_32024)" stroke-width="2"/>
+</g>
+<defs>
+<filter id="filter0_d_12004_32024" x="0.485596" y="0.485352" width="31.0288" height="33.0293" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0156863 0 0 0 0 0.478431 0 0 0 0 0.466667 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_12004_32024"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_12004_32024" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_12004_32024" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(25.4558 23.8645) rotate(-135.842) scale(19.6034 18.8781)">
+<stop stop-color="#0DB0AE"/>
+<stop offset="1" stop-color="#003534"/>
+</radialGradient>
+<linearGradient id="paint1_linear_12004_32024" x1="0" y1="12.7278" x2="25.4556" y2="12.7278" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00615F"/>
+<stop offset="1" stop-color="#F5C84C"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,16 @@
+<svg viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g id="&#229;&#133;&#172;&#229;&#145;&#138;" opacity="0.4">
+    <!-- 背景路径 -->
+    <path id="Vector" d="M5.89925 17.1695C5.89925 17.1695 8.5 21.75 12 21.75V3.75C8.5 3.75 5.89925 8.2554 5.89925 8.2554M5.89925 17.1695H3C2.44771 17.1695 2 16.7218 2 16.1695V9.2554C2 8.7031 2.44771 8.2554 3 8.2554H5.89925M5.89925 17.1695V8.2554" stroke="currentColor" stroke-linejoin="round"/>
+    <!-- 声波路径 -->
+    <path id="Vector_2" d="M16 8.25C16.3116 8.52825 16.5941 8.83985 16.8421 9.1794C17.5694 10.1752 18 11.4111 18 12.75C18 14.0773 17.5768 15.3034 16.8609 16.2947C16.6084 16.6443 16.3196 16.9647 16 17.25" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+      <animate attributeName="opacity" dur="1.5s" repeatCount="indefinite" values="0;1;0;" keyTimes="0;0.5;1" />
+      <animate attributeName="stroke-width" dur="1.5s" repeatCount="indefinite" values="0;2;0;" keyTimes="0;0.5;1" />
+    </path>
+    <!-- 声波扩散效果 -->
+    <path id="Vector_3" d="M17.118 21.3428C20.0418 19.5976 22 16.4025 22 12.75C22 9.15425 20.1021 6.00175 17.2535 4.23953" stroke="currentColor" stroke-linecap="round">
+      <animate attributeName="opacity" dur="1.5s" repeatCount="indefinite" values="0;0.5;0;" keyTimes="0;0.5;1" />
+      <animate attributeName="stroke-width" dur="1.5s" repeatCount="indefinite" values="0;1;0;" keyTimes="0;0.5;1" />
+    </path>
+  </g>
+</svg>
